@@ -9,10 +9,10 @@
   * submit a link to your PR in canvas
   * write a question and observation on canvas
 
-## Requirements  
-#### Configuration  
+## Requirements
+#### Configuration
   <!-- list of files, configurations, tools, etc that are required -->
-  Your lab directory must include  
+  Your lab directory must include
   * **README.md** -- with a documentation about your lab
   * **.gitignore** -- with a robust .gitignore
   * **.eslintrc** -- with the class .eslintrc file
@@ -21,11 +21,11 @@
   * **lib/** -- directory for holding your programs helper modules
   * **test/** -- directory for holding your programs unit and integration tests
 
-#### Testing  
+#### Testing
   * write at least three test assertions for each constructor method
   * organize your tests into appropriate describe/it blocks for test output readability
 
-####  Documentation  
+####  Documentation
   * in your README, write documentation for you data structures
   * your documentation should includes code block usage examples
   * provide instructions for:
@@ -34,7 +34,7 @@
     * accessing each method
     * running your tests
 
-#### Feature Tasks  
+#### Feature Tasks
   * use the node fs module to read an HTML document into a buffer (minimal.html => found in the /assets dir)
   * parse the buffer and use the root `<html>` element, subsequent HTML tags, and their text content to build a tree data structure
     * hint: you will need to refactor your node to allow a different type of data to be stored in the `.value` property. The remainder of the node should not change
@@ -44,13 +44,12 @@
               eleName: 'xxx',
               textContent: 'yyy' (can be empty string??)
             },
-              children: [{Node}, {Node}, ...]
+              children: SLL [{Node}, {Node}, ...]
             }
           }
         ```
 
-## Bonus Points:
-  * 2pts each
+## Stretch:
   * implement the ability to parse both classes & ids; and any other attribute nodes you would like to consider
     * there is a test file in /assets dir called stretch.html
 
